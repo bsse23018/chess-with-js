@@ -414,6 +414,7 @@ function displayBoard() {
 
 
 async function main() {
+    alert("White Turn First");
     displayBoard();
 }
 

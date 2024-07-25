@@ -36,7 +36,7 @@ body {
     background-color: #40E0D0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .row {
         height: 12vw;
         width: 96vw;

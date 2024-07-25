@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.row{
+    height: 75px;
+    width: 600px;
+
+    display: flex;
+}
+.box{
+    display: flex;;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+}
+.box:hover{
+    background-color: #02fcdf;
+}
+
+.click{
+    background-color: green;
+}
+.black{
+    background-color: #40E0D0;
+}
+
+@media (max-width: 800px) {
+    .row {
+        height: 12vw;
+        width: 96vw;
+    }
+
+    .box {
+        height: 12vw;
+        width: 12vw;
+    }
+}
